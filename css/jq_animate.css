@@ -1,0 +1,31 @@
+.v-show{
+    width: 600px;
+    height: 260px;
+    border: 2px #ccc solid;
+}
+.v-caption{
+    height: 35px;
+    padding: 3px 5px;
+    background-color: #ccc;
+    line-height: 35px;
+}
+.otter,
+.highlight-tip,
+.change-btn{
+    float: left;
+}
+.v-caption em {
+    float: right;
+}
+.v-content-list {
+    width: 600px;
+    height: 300px;
+    overflow: scroll;
+}
+.v-content-list li{
+    float: left;
+}
+.v-content-list img{
+    width: 130px;
+    margin: 4px 3px;
+}
