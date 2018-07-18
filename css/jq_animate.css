@@ -1,6 +1,6 @@
 .v-show{
     width: 600px;
-    height: 260px;
+    height: 180px;
     border: 2px #ccc solid;
 }
 .v-caption{
@@ -8,6 +8,20 @@
     padding: 3px 5px;
     background-color: #ccc;
     line-height: 35px;
+}
+.highlight-tip{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.highlight-tip .current {
+    background-color: aqua;
+}
+.highlight-tip span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 .otter,
 .highlight-tip,
@@ -17,15 +31,17 @@
 .v-caption em {
     float: right;
 }
-.v-content-list {
+.v-content-list ul{
     width: 600px;
-    height: 300px;
-    overflow: scroll;
+    white-space: nowrap;
+    overflow-x: scroll;
 }
 .v-content-list li{
-    float: left;
+    width: 130px;
+    margin: 4px 3px;
+    display: inline-block;
 }
 .v-content-list img{
     width: 130px;
-    margin: 4px 3px;
+    
 }
