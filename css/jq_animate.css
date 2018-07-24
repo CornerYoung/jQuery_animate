@@ -31,10 +31,17 @@
 .v-caption em {
     float: right;
 }
+.v-content{
+    position: relative;
+}
+.v-content-list{
+    position: absolute;
+}
 .v-content-list ul{
     width: 600px;
     white-space: nowrap;
     overflow-x: scroll;
+    position: absolute;
 }
 .v-content-list li{
     width: 130px;
